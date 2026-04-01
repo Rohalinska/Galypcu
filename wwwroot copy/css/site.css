@@ -1,0 +1,81 @@
+/* --- ПРИМУСОВИЙ ФОН І ТЕКСТ ДЛЯ ВСЬОГО САЙТУ --- */
+html, body, main, .container {
+    background-color: #1e1e1e !important; /* Глухий темно-сірий фон */
+    color: #ffffff !important; /* Білий текст */
+}
+
+/* Примусово робимо всі заголовки та звичайний текст білими */
+h1, h2, h3, h4, h5, h6, p, span, div, label {
+    color: #ffffff !important;
+}
+
+/* Статистика і дрібний текст */
+.text-muted {
+    color: #a0a0a0 !important;
+}
+
+/* --- НАВІГАЦІЯ (ШАПКА) --- */
+header .navbar {
+    background-color: #252526 !important; /* Трохи світліший сірий для шапки */
+    border-bottom: 1px solid #333 !important;
+}
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+.navbar-brand:hover, .nav-link:hover {
+    color: #00e676 !important; /* Зелений при наведенні */
+}
+
+/* --- КНОПКИ ТА КАТЕГОРІЇ (Яскраво-зелені) --- */
+.btn, .btn-primary, .btn-outline-dark, .btn-outline-secondary, .btn-success {
+    background-color: transparent !important;
+    color: #00e676 !important; 
+    border: 2px solid #00e676 !important;
+    border-radius: 20px !important;
+    padding: 6px 16px;
+    transition: all 0.3s ease;
+}
+
+/* Ефект при наведенні на кнопку */
+.btn:hover, .btn-primary:hover, .btn-outline-dark:hover, .btn-outline-secondary:hover {
+    background-color: #00e676 !important;
+    color: #1e1e1e !important; /* Темний текст на зеленій кнопці */
+    border-color: #00e676 !important;
+}
+
+/* --- ПОЛЕ ПОШУКУ --- */
+.form-control {
+    background-color: #2d2d2d !important;
+    color: #ffffff !important;
+    border: 1px solid #444 !important;
+    border-radius: 8px !important;
+}
+.form-control:focus {
+    background-color: #2d2d2d !important;
+    color: #ffffff !important;
+    border-color: #00e676 !important;
+    box-shadow: 0 0 5px #00e676 !important; /* Зелене світіння */
+}
+.form-control::placeholder {
+    color: #888888 !important;
+}
+
+/* --- ПРОГРЕС ЧИТАННЯ --- */
+.progress {
+    background-color: #333 !important; /* Темний фон смуги */
+    border-radius: 5px !important;
+    height: 12px !important;
+}
+.progress-bar {
+    background-color: #00e676 !important; /* Яскраво-зелена смужка */
+}
+
+/* --- КАРТКИ КНИГ --- */
+.card {
+    background-color: #252526 !important;
+    border: 1px solid #333 !important;
+    border-radius: 12px !important;
+}
+.card-body, .card-title, .card-text {
+    background-color: transparent !important;
+}
