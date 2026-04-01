@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("shelf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efe6dd6bc4a2a8c602ee77a6e6d734f207bd1494")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9b8dbab5b0408d87b2952f3e880ec4d0ff9be28")]
 [assembly: System.Reflection.AssemblyProductAttribute("shelf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("shelf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
